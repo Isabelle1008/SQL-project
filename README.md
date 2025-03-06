@@ -1,11 +1,13 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-(fill in your description and goals here)
+
+This project is a database system for managing the inventory of an ecommerce business. 
+It allows users to track products, manage sales, and analyze inventory performance.
+
 
 ## Process
-### (your step 1)
-### (your step 2)
+Loading csv Files into Database
 
 ## Results
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
