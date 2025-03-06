@@ -4,7 +4,9 @@ Answer the following questions and provide the SQL queries used to find the answ
 **Question 1: Which cities and countries have the highest level of transaction revenues on the site?**
 
 
-SQL Queries:SELECT
+SQL Queries:
+
+SELECT
             country, city, SUM(totaltransactionrevenue) AS total_revenue
             FROM
             all_sessions
@@ -27,6 +29,7 @@ Answer:
 
 
 SQL Queries:
+
 SELECT AVG (totalordered) AS avg_products_ordered	
 FROM sales_report s
 JOIN all_sessions a
@@ -48,6 +51,7 @@ Answer:
 
 
 SQL Queries:
+
 SELECT a.country, a.city, a.v2productcategory,
     COUNT(a.productsku) AS product_count
 FROM
@@ -70,6 +74,7 @@ Answer:
 
 
 SQL Queries:
+
 SELECT a.city, s.productsku, s.name,
     SUM(s.totalordered) AS total_sales
     FROM
@@ -91,6 +96,7 @@ Answer:
 **Question 5: Can we summarize the impact of revenue generated from each city/country?**
 
 SQL Queries:
+
 SELECT
     a.country,
     a.city,
