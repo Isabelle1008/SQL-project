@@ -8,6 +8,8 @@ It allows users to track products, manage sales, and analyze inventory performan
 
 ## Process
 Loading csv Files into Database
+removed duplicates in primary keys 
+(fullvisitorid and productsku)
 
 ## Results
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
