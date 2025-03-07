@@ -12,10 +12,11 @@ removed duplicates in primary keys
 (fullvisitorid and productsku)
 
 ## Results
-(fill in what you discovered this data could tell you and how you used the data to answer those questions)
+i discovered that all the tables are related on the primary keys. and this facilitated qurying the data and drawing answers to the questions
 
 ## Challenges 
-(discuss challenges you faced in the project)
+Loading the data in pg admin was a challenge because i did it wrong and spent some days trying to do some queries and couldn't,
+i had to restart the process
 
 ## Future Goals
-(what would you do if you had more time?)
+I would work on cleaning the whole data and present it in the best shape possible
